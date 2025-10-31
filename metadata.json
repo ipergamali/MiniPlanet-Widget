@@ -1,0 +1,26 @@
+{
+  "KPlugin": {
+    "Id": "org.kde.plasma.miniplanet",
+    "Name": "Mini Planet",
+    "Description": "A rotating planet widget with live weather and moon phase updates.",
+    "Icon": "weather-clear-night",
+    "Version": "1.0",
+    "Category": "Fun",
+    "License": "GPLv3",
+    "Authors": [
+      {
+        "Name": "Joanne Pergamali"
+      }
+    ],
+    "ServiceTypes": [
+      "Plasma/Applet"
+    ]
+  },
+  "KPackageStructure": "Plasma/Applet",
+  "FormFactors": [
+    "desktop"
+  ],
+  "X-Plasma-API": "declarativeappletscript",
+  "X-Plasma-MainScript": "ui/main.qml",
+  "X-Plasma-CompatVersion": "6.0"
+}
